@@ -69,6 +69,7 @@
 
 .server__messenger-btn:enabled,
 .server__messenger-btn:disabled {
+	color: black;
 	background-color: #8eab5d;
 	border: 2px solid #596745;
 	font-size: 14px;
@@ -83,6 +84,7 @@
 }
 
 .server__messenger-btn:disabled {
+	color: rgba(50, 45, 45, 0.665);
 	cursor: not-allowed;
 	background-color: #8eab5d8d;
 	border: 2px solid #5967459b;
