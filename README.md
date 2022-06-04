@@ -93,3 +93,5 @@ screen.
 
 I've also made some pretty complex custom animations to make this proccess funnier and more visual and developed
 pop-up warning window to make sure that message won't be decrypted twice.
+
+You can check this app live on GitHub Pages [here](https://kr4chinin.github.io/dh-key-exchange/).
