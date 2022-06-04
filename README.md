@@ -6,6 +6,8 @@ Than you can encrypt, send and decrypt messages. All with fancy animations!
 Consider that this is a **basic implementation** of this algorithm which shall not be used 
 for any real-life encryption purposes!
 
+<img width="1032" alt="image" src="https://user-images.githubusercontent.com/103210607/172015146-472c489b-e407-4008-a9d9-65e3b0840c82.png">
+
 ## Introduction
 
 **Diffie-Hellman key exchange**, also called exponential key exchange, 
