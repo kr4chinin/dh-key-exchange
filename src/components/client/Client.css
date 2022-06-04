@@ -1,0 +1,157 @@
+@import '../../assets/fonts/SourceCodePro.css';
+
+.client-head {
+	font-family: 'SourceCodePro', sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 486px;
+	height: 455px;
+	background: #d2d2d1;
+	border-radius: 5px;
+}
+
+.client__content {
+	margin-top: 33px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 417px;
+	height: 380px;
+	background: #000000;
+	padding: 22px;
+	border-radius: 5px;
+}
+
+.client__content--keys {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 310px;
+}
+
+.client-head-btns {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 23px;
+	width: 60px;
+	margin-top: 20px;
+	margin-left: 280px;
+}
+
+.main-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 23px;
+	background: #9f9f9f;
+	border-width: 1px 1px 0px 1px;
+	border-style: solid;
+	border-color: rgba(0, 0, 0, 0.15);
+}
+
+.power-off-icon {
+	margin: 2px;
+	transition: 0.5s;
+}
+
+.power-off-icon.set {
+	color: rgba(237, 244, 44, 0.798);
+}
+
+.main-btn-indicator {
+	width: 10px;
+	height: 10px;
+	background: #dbd200;
+	border: 1px solid rgba(0, 0, 0, 0.17);
+	border-radius: 50%;
+	transition: 0.5s;
+}
+
+.main-btn-indicator.set {
+	transition-delay: 0.5s;
+	border: 1px solid rgba(255, 255, 0, 0.435);
+	background: #e9e200;
+	box-shadow: 0px 0px 2px 2px rgba(255, 255, 0, 0.339);
+}
+
+.client-messenger-container {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	height: 160px;
+	padding: 15px;
+	width: 487px;
+	background-color: #000000;
+	border: 8px solid #d2d2d1;
+	margin-bottom: 20px;
+}
+
+.client__message-section-container {
+	margin: 5px;
+	width: 420px;
+	margin-left: 15px;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.client__message {
+	font-family: 'SourceCodePro', sans-serif;
+	outline: none;
+	text-align: center;
+	resize: none;
+	cursor: pointer;
+	font-size: medium;
+	width: 310px;
+	height: 44px;
+	background: black;
+	color: yellow;
+	border: 2px solid rgba(153, 205, 50, 0.35);
+}
+
+.client__message::placeholder {
+	color: rgba(255, 255, 0, 0.465);
+}
+
+.client__messenger-btn:enabled,
+.client__messenger-btn:disabled {
+	font-family: 'SourceCodePro', sans-serif;
+	width: 98px;
+	height: 44px;
+	margin-left: 10px;
+	padding-left: 2px;
+	padding-right: 2px;
+	cursor: pointer;
+	background: black;
+	color: yellow;
+	font-size: 14px;
+	border: 2px solid rgba(153, 205, 50, 0.35);
+	transition: 0.8s;
+}
+
+.client__messenger-btn:disabled {
+	cursor: not-allowed;
+	background: black;
+	color: rgba(255, 255, 0, 0.465);
+	border: 2px solid rgba(153, 205, 50, 0.2);
+}
+
+.client__icon-lock,
+.client__icon-unlock {
+	height: 23px;
+	width: 23px;
+	color: yellow;
+	margin-left: 10px;
+	transition: 0.5s;
+}
+
+.client__icon-lock.active,
+.client__icon-unlock.active {
+	transform: rotateY(180deg);
+}

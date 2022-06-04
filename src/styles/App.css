@@ -1,0 +1,70 @@
+@import '../assets/fonts/Merriweather.css';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.App {
+	display: flex;
+	justify-content: center;
+}
+
+.global-container {
+	display: flex;
+}
+
+.channel-box {
+	display: flex;
+	flex-direction: column;
+	width: 260px;
+	margin-top: 190px;
+}
+
+.server-label {
+	font-family: 'Merriweather', sans-serif;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.server-container,
+.client-container {
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.middle-container {
+	margin-top: 150px;
+	width: 260px;
+	height: 800px;
+}
+
+.first-key,
+.second-key {
+	width: 40x;
+	height: 40px;
+	color: rgba(0, 0, 0, 0.77);
+}
+
+.first-key {
+	transform: rotate(20deg);
+}
+
+.second-key {
+	transform: rotate(200deg);
+}
+
+.keys-icon-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 260px;
+	margin-top: 150px;
+	height: 130px;
+	border-bottom: dashed 3px rgba(0, 0, 0, 0.55);
+	border-top: dashed 3px rgba(0, 0, 0, 0.55);
+}

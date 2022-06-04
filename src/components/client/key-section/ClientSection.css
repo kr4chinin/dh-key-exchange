@@ -1,0 +1,75 @@
+.client__key-section {
+	padding-left: 10px;
+	padding-right: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 366px;
+	height: 65px;
+	background: #000000;
+	color: yellow;
+}
+
+.client__description {
+	width: 118px;
+	height: 38px;
+	background: rgb(0, 0, 0);
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding-top: 8px;
+	font-size: medium;
+	border: 2px solid rgba(153, 205, 50, 0.35);
+}
+
+.client__value {
+	padding-top: 8px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	resize: none;
+	width: 100px;
+	height: 38px;
+	color: yellow;
+	background: black;
+	font-size: large;
+	border: 2px solid rgba(153, 205, 50, 0.35);
+}
+
+.client__get-btn:enabled {
+	height: 38px;
+	width: 86px;
+	font-size: medium;
+	cursor: pointer;
+	background: black;
+	color: yellow;
+	border: 2px solid rgba(153, 205, 50, 0.35);
+	transition: 0.8s;
+}
+
+.client__get-btn:disabled {
+	height: 38px;
+	width: 86px;
+	background: black;
+	font-size: medium;
+	border: 2px solid rgba(153, 205, 50, 0.35);
+	cursor: not-allowed;
+	opacity: 0.6;
+	color: rgba(255, 255, 0, 0.45);
+	transition: 0.8s;
+}
+
+.check-icon {
+	opacity: 0;
+	transform: rotate(0) scale(0.4);
+	color: yellow;
+	height: 22px;
+	width: 22px;
+	transition: 0.5s linear;
+	margin-right: 8px;
+}
+
+.check-icon.set {
+	opacity: 1;
+	transform: rotate(360deg) scale(1);
+}

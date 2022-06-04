@@ -1,0 +1,103 @@
+@import '../../assets/fonts/Merriweather.css';
+
+.server-body {
+	font-family: 'Merriweather', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 486px;
+	height: 673px;
+	background: #6f6f6f;
+}
+
+.server__content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 420px;
+	height: 585px;
+	background: #52534f;
+	padding: 22px;
+}
+
+.server__content--keys {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 310px;
+}
+
+.server-messenger-container {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	height: 160px;
+	padding: 15px;
+	width: 487px;
+	background-color: #52534f;
+	border: 8px solid #6f6f6f;
+	margin-bottom: 20px;
+}
+
+.server__message-section-container {
+	margin: 5px;
+	width: 420px;
+	margin-left: 15px;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.server__message {
+	outline: none;
+	text-align: center;
+	font-family: 'Merriweather', sans-serif;
+	resize: none;
+	width: 310px;
+	height: 44px;
+	background: rgb(214, 196, 196);
+	border: 2px solid rgb(105, 85, 85);
+	cursor: pointer;
+	font-size: 15px;
+}
+
+.server__message::placeholder {
+	color: rgba(41, 31, 31, 0.551);
+}
+
+.server__messenger-btn:enabled,
+.server__messenger-btn:disabled {
+	background-color: #8eab5d;
+	border: 2px solid #596745;
+	font-size: 14px;
+	font-family: 'Merriweather', sans-serif;
+	padding-left: 2px;
+	padding-right: 2px;
+	width: 98px;
+	height: 44px;
+	margin-left: 10px;
+	cursor: pointer;
+	transition: 0.8s;
+}
+
+.server__messenger-btn:disabled {
+	cursor: not-allowed;
+	background-color: #8eab5d8d;
+	border: 2px solid #5967459b;
+}
+
+.server__icon-lock,
+.server__icon-unlock {
+	height: 23px;
+	width: 23px;
+	color: rgb(205, 164, 164);
+	margin-left: 10px;
+	transition: 0.5s;
+}
+
+.server__icon-lock.active,
+.server__icon-unlock.active {
+	transform: rotateY(180deg);
+}

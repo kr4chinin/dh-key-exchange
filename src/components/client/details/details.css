@@ -1,0 +1,150 @@
+.pad--small {
+	width: 440px;
+	height: 39px;
+	background: #b1b1b1;
+}
+
+.pad--small-btns-container {
+	margin-top: 9px;
+	margin-left: 22px;
+	width: 38px;
+	height: 16px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.pad--small-btn {
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: #a99a9a;
+	border: 2px solid rgba(78, 57, 57, 0.12);
+}
+
+.pad--large {
+	width: 466px;
+	height: 36px;
+	background: rgba(106, 95, 95, 0.76);
+}
+
+.up-section {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 65px;
+	width: 486px;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.454);
+}
+
+.up-section__light-detail {
+	width: 62px;
+	height: 19px;
+	background: #c5c5c5;
+	margin-left: 25px;
+}
+
+.up-section__dark-detail {
+	width: 112px;
+	height: 12px;
+	background: #2f2c2c;
+	margin-right: 61px;
+}
+
+.down-section {
+	display: flex;
+	justify-content: space-between;
+	height: 78px;
+	width: 486px;
+}
+
+.bottom-box {
+	display: flex;
+	flex-direction: column;
+	width: 486px;
+	height: 143px;
+	background: #d9d9d9;
+}
+
+.speaker {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 106px;
+	height: 78px;
+	border-right: 2px solid rgba(0, 0, 0, 0.454);
+}
+
+.holes-row {
+	margin-bottom: 4px;
+	display: flex;
+	justify-content: space-between;
+	width: 79px;
+	height: 4px;
+}
+
+.hole {
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background: black;
+}
+
+.big-hole {
+	margin-top: 8px;
+	width: 39px;
+	height: 5px;
+	background: #444040;
+}
+
+.cd-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 240px;
+	height: 78px;
+	border-left: 2px solid rgba(0, 0, 0, 0.454);
+}
+
+.cd-rom {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 149px;
+	height: 25px;
+	margin-bottom: 15px;
+	margin-right: 8px;
+	background: #c0bfbf;
+}
+
+.cd {
+	width: 135px;
+	height: 14px;
+	background: #a1a1a1;
+	border: 2px solid rgba(0, 0, 0, 0.06);
+	transition: 2s;
+}
+
+.cd.set {
+	background: #848383;
+	border: 2px solid rgba(0, 0, 0, 0.172);
+	box-shadow: inset -1px -1px 2px 1px rgba(0, 0, 0, 0.459),
+		inset 1px 1px 2px 1px rgba(0, 0, 0, 0.459);
+}
+
+.light-indicator {
+	width: 8px;
+	height: 8px;
+	background: #c1ba00;
+	border: 1px solid rgba(0, 0, 0, 0.17);
+	border-radius: 50%;
+	margin-bottom: 15px;
+	margin-right: 30px;
+	transition: 0.8s;
+}
+
+.light-indicator.set {
+	background: #fff700;
+	box-shadow: 0px 0px 2px 2px #ece401ab;
+	border: 1px solid rgba(198, 192, 20, 0.542);
+}

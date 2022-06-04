@@ -1,0 +1,67 @@
+@import '../../assets//fonts/Merriweather.css';
+
+.modal {
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	inset: 0;
+	position: fixed;
+	background: rgba(0, 0, 0, 0.511);
+	transition: 0.6s;
+	pointer-events: none;
+}
+
+.modal__content {
+	font-family: 'Merriweather', sans-serif;
+	box-sizing: content-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	position: fixed;
+	font-size: small;
+	opacity: 0;
+	width: 490px;
+	height: 100px;
+	background: white;
+	border-radius: 10px;
+	transform: scale(0.5);
+	padding-bottom: 20px;
+	transition: 0.6s;
+}
+
+.modal.active {
+	pointer-events: all;
+	opacity: 1;
+}
+
+.modal__content.active {
+	opacity: 1;
+	font-size: large;
+	transform: scale(1);
+}
+
+.close-icon-container {
+	height: 30px;
+	padding-left: 425px;
+	padding-bottom: 15px;
+	display: flex;
+	align-items: center;
+}
+
+.close-icon {
+	height: 30px;
+	width: 30px;
+	transition: 0.4s;
+	color: darkred;
+}
+
+.close-icon:hover {
+	cursor: pointer;
+	transform: scale(1.15);
+}
+
+.warning-text {
+	color: rgb(201, 134, 9);
+}
