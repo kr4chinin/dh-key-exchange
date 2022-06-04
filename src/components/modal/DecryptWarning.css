@@ -20,7 +20,6 @@
 	justify-content: center;
 	flex-direction: column;
 	position: fixed;
-	font-size: small;
 	opacity: 0;
 	width: 490px;
 	height: 100px;

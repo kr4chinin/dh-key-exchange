@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/dh-key-exchange/static/css/main.aa8cf8cd.css",
+    "main.css": "/dh-key-exchange/static/css/main.51a50555.css",
     "main.js": "/dh-key-exchange/static/js/main.fc5f0c97.js",
     "static/media/Merriweather-Regular.ttf": "/dh-key-exchange/static/media/Merriweather-Regular.da67ca8c38ef44c4773d.ttf",
     "static/media/SourceCodePro-Regular.ttf": "/dh-key-exchange/static/media/SourceCodePro-Regular.3ba7353c5a8606cdc67b.ttf",
     "index.html": "/dh-key-exchange/index.html",
-    "main.aa8cf8cd.css.map": "/dh-key-exchange/static/css/main.aa8cf8cd.css.map",
+    "main.51a50555.css.map": "/dh-key-exchange/static/css/main.51a50555.css.map",
     "main.fc5f0c97.js.map": "/dh-key-exchange/static/js/main.fc5f0c97.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa8cf8cd.css",
+    "static/css/main.51a50555.css",
     "static/js/main.fc5f0c97.js"
   ]
 }
